@@ -1,0 +1,85 @@
+@import '../Common.scss';
+
+.header {
+    // border: 1px solid red;
+    height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    z-index: 30;
+    top: 100px;
+    right: 30px;
+    position: fixed;
+
+    ul {
+        text-transform: uppercase;
+
+
+        li {
+            background-color: $secondary-color;
+            transition-duration: 300ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 9999px;
+            align-items: center;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            position: relative;
+
+            i {
+                font-size: 23px;
+                position: absolute;
+                // pointer-events: none;
+                left: 15px;
+                top: 13px;
+            }
+
+            div {
+                width: 50px;
+                height: 50px;
+                display: block;
+
+                h2 {
+                    background-color: $secondary-color;
+                    transition-duration: 300ms;
+                    transition-property: all;
+                    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                    opacity: 0;
+                    color: $white;
+                    line-height: 50px;
+                    font-weight: 500;
+                    text-align: center;
+                    padding-right: 25px;
+                    padding-left: 30px;
+                    border-radius: 30px;
+                    height: 50px;
+                    display: block;
+                    z-index: -10;
+                    right: 0;
+                    position: absolute;
+                }
+
+                &:hover {
+                    h2 {
+                        opacity: 1;
+                        border-radius: 30px 0 0 30px;
+                        right: 27px;
+                        background-color: $secondary-color;
+                        transition-duration: 300ms;
+                        transition-property: all;
+                        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                        padding-right: 25px;
+                        padding-left: 30px;
+                        font-size: 15px;
+                        text-align: center;
+                        height: 50px;
+                        z-index: -10;
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    }
+}
