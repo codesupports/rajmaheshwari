@@ -25,7 +25,7 @@ const Home = () => {
                     </div>
                     <div className="pannel__right">
                         <h1>Raj Maheshwari</h1>
-                        <h2 className='designation'>Frontend <span> Developer</span>
+                        <h2 className='designation'><span className='spin'></span> <span> Developer</span>
                             {/* <b>
                       <div class="innerIam">
                         <span>Frontend Developer</span>

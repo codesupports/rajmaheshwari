@@ -233,54 +233,34 @@
 
 }
 
-
-
-// .designation {
-//     display: flex;
+// .spin {
+//     color: red;
 // }
 
-// .designation p {
-//     height: 40px;
-//     float: left;
-//     margin-right: 0.3em;
+.spin:after {
+    content: "";
+    animation: spin 10s ease-in-out infinite;
+    color: $primary-color;
+}
 
-// }
+@keyframes spin {
+    0% {
+        content: "Frontend ";
+        transition: all 500ms ease-in-out;
+    }
 
-// .designation b {
-//     float: left;
-//     overflow: hidden;
-//     position: relative;
-//     height: 50px;
-//     top: 0;
-//     // border: 1px solid red;
-// }
+    30% {
+        content: "ReactJS";
+        transition: all 500ms ease-in-out;
+    }
 
-// .designation .innerIam {
-//     position: relative;
+    80% {
+        content: "UI";
+        transition: all 500ms ease-in-out;
+    }
 
-//     span {
-//         display: block;
-//     }
-
-//     animation: move 18s;
-//     animation-iteration-count: infinite;
-//     animation-delay: 1s;
-// }
-
-// @keyframes move {
-//     0% {
-//         top: -5px;
-//     }
-
-//     33% {
-//         top: -80px;
-//     }
-
-//     66% {
-//         top: -140px;
-//     }
-
-//     100% {
-//         top: 0;
-//     }
-// }
+    100% {
+        content: "Frontend ";
+        transition: all 500ms ease-in-out;
+    }
+}

@@ -54,20 +54,20 @@ const AboutUs = () => {
                 <div className='aboutus__right d-flex flex-wrap width-50'>
                     <div className='width-50 px-15'>
                         <div className="aboutus__info-sec">
+                            <h3>11</h3>
+                            <p>Industry <span>Experience</span></p>
+                        </div>
+                    </div>
+                    <div className='width-50 px-15'>
+                        <div className="aboutus__info-sec">
                             <h3>8</h3>
-                            <p>Years of <span>Experience</span></p>
+                            <p>Frontend<span>Experience</span></p>
                         </div>
                     </div>
                     <div className='width-50 px-15'>
                         <div className="aboutus__info-sec">
                             <h3>40</h3>
                             <p>completed <span>projects</span></p>
-                        </div>
-                    </div>
-                    <div className='width-50 px-15'>
-                        <div className="aboutus__info-sec">
-                            <h3>30</h3>
-                            <p>happy <span>customers</span></p>
                         </div>
                     </div>
                     <div className='width-50 px-15'>
