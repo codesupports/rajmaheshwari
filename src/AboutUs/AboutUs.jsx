@@ -30,25 +30,25 @@ const AboutUs = () => {
                                 <span>Freelance  :</span> <span>Available</span>
                             </div>
                         </div>
+
                         <div className='basic-1'>
-                            <div className='basic-1'>
-                                <div>
-                                    <span>Address  :</span> <span>New Delhi</span>
-                                </div>
-                                <div>
-                                    <span>Mobile :</span> <span>+91 9958341624</span>
-                                </div>
-                                <div>
-                                    <span>email  :</span> <span>raj.mah55@gmail.com</span>
-                                </div>
-                                <div>
-                                    <span>Skype :</span> <span>designer.raj</span>
-                                </div>
-                                <div>
-                                    <span>Langages   :</span> <span>English, Hindi</span>
-                                </div>
+                            <div>
+                                <span>Address  :</span> <span>New Delhi</span>
+                            </div>
+                            <div>
+                                <span>Mobile :</span> <span>+91 9958341624</span>
+                            </div>
+                            <div>
+                                <span>email  :</span> <span>raj.mah55@gmail.com</span>
+                            </div>
+                            <div>
+                                <span>Skype :</span> <span>designer.raj</span>
+                            </div>
+                            <div>
+                                <span>Langages   :</span> <span>English, Hindi</span>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <div className='aboutus__right d-flex flex-wrap width-50'>

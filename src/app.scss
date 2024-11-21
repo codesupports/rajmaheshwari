@@ -233,9 +233,9 @@
 
 }
 
-// .spin {
-//     color: red;
-// }
+.spin {
+    display: inline-block;
+}
 
 .spin:after {
     content: "";

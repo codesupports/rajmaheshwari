@@ -25,17 +25,8 @@ const Home = () => {
                     </div>
                     <div className="pannel__right">
                         <h1>Raj Maheshwari</h1>
-                        <h2 className='designation'><span className='spin'></span> <span> Developer</span>
-                            {/* <b>
-                      <div class="innerIam">
-                        <span>Frontend Developer</span>
-                        <span>ReactJs Developer</span>
-                        <span>UI Developer</span>
-                      </div>
-                    </b>
-                    <p>Frontend</p> */}
-                        </h2>
-                        <p>I’m experienced Frontend ReactJs Developer/UI Developer with over 8 years of expertise in building high performance, responsive web application.</p>
+                        <h2 className='designation'><span className='spin'></span> <span> Developer</span></h2>
+                        <p>I am an experienced Frontend React.js Developer with over 8 years of expertise in creating responsive and high-performance web applications. My proficiency in React.js, combined with deep knowledge of state management tools like Redux and hooks, allows me to build scalable, maintainable, and optimized user interfaces. I am passionate about leveraging the latest frontend technologies to deliver exceptional user experiences.</p>
                         <Link to="/About" className='more'>MORE ABOUT ME</Link>
                         <div className="social-icon">
                             <span>

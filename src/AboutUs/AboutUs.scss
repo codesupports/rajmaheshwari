@@ -330,13 +330,32 @@
         width: 100% !important;
     }
 
+    .aboutus__block .aboutus__left .persoanl__info {
+        .basic-1 {
+            width: 50%;
+            float: left;
+
+            div {
+                padding-bottom: 20px !important;
+
+                span {
+                    display: block;
+
+                    &:last-child {
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+
     .aboutus__right.width-50 {
         .width-50 {
             width: 100% !important;
             padding: 0;
         }
 
-        ;
+
     }
 
     .persoanl__info.d-flex {
