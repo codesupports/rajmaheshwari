@@ -21,7 +21,7 @@ const AboutUs = () => {
                                 <span>Last Name :</span> <span>Maheshwari</span>
                             </div>
                             <div>
-                                <span>Age :</span> <span>27</span>
+                                <span>Age :</span> <span>37</span>
                             </div>
                             <div>
                                 <span>Nationality :</span> <span>Indian</span>

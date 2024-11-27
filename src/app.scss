@@ -16,6 +16,11 @@
             letter-spacing: 1px;
             font-size: 18px;
         }
+
+        .highlight {
+            color: $secondary-color;
+            font-style: italic;
+        }
     }
 
     &__desc {
