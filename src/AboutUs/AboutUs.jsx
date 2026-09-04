@@ -20,15 +20,15 @@ const AboutUs = () => {
                             <div>
                                 <span>Last Name :</span> <span>Maheshwari</span>
                             </div>
-                            <div>
+                            {/* <div>
                                 <span>Age :</span> <span>37</span>
-                            </div>
+                            </div> */}
                             <div>
                                 <span>Nationality :</span> <span>Indian</span>
                             </div>
-                            <div>
+                            {/* <div>
                                 <span>Freelance  :</span> <span>Available</span>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className='basic-1'>
@@ -54,7 +54,7 @@ const AboutUs = () => {
                 <div className='aboutus__right d-flex flex-wrap width-50'>
                     <div className='width-50 px-15'>
                         <div className="aboutus__info-sec">
-                            <h3>11</h3>
+                            <h3>13</h3>
                             <p>Industry <span>Experience</span></p>
                         </div>
                     </div>
@@ -90,21 +90,21 @@ const AboutUs = () => {
                             <div className='fill'></div>
                         </div>
                     </div>
-                    <h6>HTML5</h6>
+                    <h6>ReactJS</h6>
                 </div>
                 <div className='width-25 skill-wrapper'>
                     <div className="skill-black">
-                        <span>86%</span>
+                        <span>75%</span>
                         <div className="selected">
                             <div className='bar'></div>
                             <div className='fill'></div>
                         </div>
                     </div>
-                    <h6>CSS</h6>
+                    <h6>NextJS</h6>
                 </div>
                 <div className='width-25 skill-wrapper'>
                     <div className="skill-black">
-                        <span>65%</span>
+                        <span>78%</span>
                         <div className="selected">
                             <div className='bar'></div>
                             <div className='fill'></div>
@@ -114,13 +114,13 @@ const AboutUs = () => {
                 </div>
                 <div className='width-25 skill-wrapper'>
                     <div className="skill-black">
-                        <span>70%</span>
+                        <span>95%</span>
                         <div className="selected">
                             <div className='bar'></div>
                             <div className='fill'></div>
                         </div>
                     </div>
-                    <h6>React Js</h6>
+                    <h6>HTML</h6>
                 </div>
                 <div className='width-25 skill-wrapper'>
                     <div className="skill-black">
@@ -130,7 +130,7 @@ const AboutUs = () => {
                             <div className='fill'></div>
                         </div>
                     </div>
-                    <h6>Redux / Redux Toolkit</h6>
+                    <h6>Redux Toolkit/Context API</h6>
                 </div>
                 <div className='width-25 skill-wrapper'>
                     <div className="skill-black">
